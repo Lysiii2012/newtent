@@ -53,3 +53,9 @@ rangeInput.forEach((input) => {
     }
   });
 });
+let filterBar = document.querySelector('.filter-bar>div')
+document.querySelector('.filter').addEventListener('click', (e) => {
+  e.preventDefault()
+  filterBar.classList.toggle('show-bar')
+
+})
